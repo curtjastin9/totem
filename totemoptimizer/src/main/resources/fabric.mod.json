@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "totemoptimizer",
+  "version": "${version}",
+  "name": "Totem Optimizer",
+  "description": "Makes hotbar and totem handling latency-proof: sends slot changes instantly and removes ghost totems the moment a pop happens.",
+  "authors": [
+    "Totem Optimizer"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.totemoptimizer.TotemOptimizerClient"
+    ]
+  },
+  "mixins": [
+    "totemoptimizer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}

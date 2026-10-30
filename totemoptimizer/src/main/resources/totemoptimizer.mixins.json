@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "dev.totemoptimizer.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ClientPacketListenerMixin",
+    "KeyMappingAccessor",
+    "KeyMappingMixin",
+    "MinecraftMixin",
+    "MultiPlayerGameModeAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
